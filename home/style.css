@@ -1,0 +1,142 @@
+@import url('//fonts.googleapis.com/css?family=Quicksand');
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Quicksand',sans-serif;
+    font-size: large;
+    background-color: rgb(209, 217, 221);
+    margin:0;
+    padding:0;
+    padding-top: 7%;
+    overflow-y: auto;
+}
+
+#botao{
+    width: 180px;
+    height: 60px;
+    background-color: #6ca0dc;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 0; 
+    font-size: large;
+}
+
+#botao:hover{
+    transform: scale(1.03);
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #011f49;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    z-index: 100;
+}
+
+.sumary{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-bottom: 7px;
+}
+
+.home{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-left: 15px;
+    margin-bottom: 15px ;
+}
+
+#description{
+    font-size: 20px;
+    width: 65%;
+    color: white;
+    font-weight: 800;
+    margin-left: 5%;
+}
+.slogan{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+p{
+    color: black;
+    width: 80%;
+    font-weight: bold;
+}
+
+#logolink{
+    display: flex;
+    justify-content: left;
+    width: 65px;
+    height: 65px;
+}
+
+a{
+    display: inline-block;
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+a:hover{
+    transform: scale(1.05);
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    text-align: justify ;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    margin-bottom: 5px;
+}
+
+#ladot{
+    width: 36%;
+    margin-right: 50px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#orcament{
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/hardware\ \(1\).jpg);
+    width: 550px;
+    height: 320px;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
