@@ -74,7 +74,7 @@ header{
 
 p{
     color: black;
-    width: 80%;
+    width: 1070px;
     font-weight: bold;
 }
 
@@ -116,7 +116,7 @@ section{
 }
 
 #ladot{
-    width: 36%;
+    width: 525px;
     margin-right: 50px;
 }
 
@@ -132,8 +132,8 @@ main{
     display: flex;
     flex-direction: column;
     background-image: url(../img/hardware\ \(1\).jpg);
-    width: 550px;
-    height: 320px;
+    width: 500px;
+    height: 265px;
     background-size: cover;
     background-position: center;
     justify-content: center;

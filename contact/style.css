@@ -1,0 +1,127 @@
+@import url('//fonts.googleapis.com/css?family=Quicksand');
+
+
+body{
+    display: flex;
+    justify-content: center;
+    font-family: 'Quicksand',sans-serif;
+    font-size: large;
+    background-color: rgb(209, 217, 221);
+    margin:0;
+    padding:0;
+    padding-top: 200px;
+    overflow-y: auto;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #011f49;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    z-index: 100;
+}
+
+.sumary{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-bottom: 7px;
+}
+
+.home{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-left: 15px;
+    margin-bottom: 15px ;
+}
+
+#description{
+    font-size: 20px;
+    width: 65%;
+    color: white;
+    font-weight: 800;
+    margin-left: 5%;
+}
+
+p{
+    color: black;
+    width: 1070px;
+    font-weight: bold;
+}
+
+#logolink{
+    display: flex;
+    justify-content: left;
+    width: 65px;
+    height: 65px;
+}
+
+a{
+    display: inline-block;
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+a:hover{
+    transform: scale(1.05);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#form-services{
+    transform: scale(1.4);
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 400px;
+    height: 30px;
+    border-radius: 4px;
+    margin-top: 5px;
+    border: none;
+}
+
+#send{
+    margin-top: 25px;
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #6ca0dc;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 0; 
+    font-size: large;
+}
+#send:hover{
+    transform: scale(1.02);
+}
+
+label{
+    margin-top: 15px;
+}
+
+select{
+    width: 400px;
+    height: 30px;
+    border-radius: 4px;
+    margin-top: 5px;
+    border: none;
+}

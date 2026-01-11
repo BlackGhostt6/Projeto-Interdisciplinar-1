@@ -1,0 +1,54 @@
+.<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="../favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="sumary">
+            <a href="../home/index.html">Página Inicial</a>
+            <a href="../services/index.html">Serviços</a>
+            <a href="../about/index.html">Sobre</a>
+        </div>
+        <div class="home">
+            <a href="../home/index.html" id="logolink"><img src="../img/logo 2.png" id="logo"></a>
+            <p id="description">Consultoria focada em manutenção de hardware e software.</p>
+        </div>
+    </header>
+    <main>
+        <form id="form-services">
+            <label>
+                Escreva o nome da Empresa:
+                <input type="text" name="nome" placeholder="Ex: Empresa A" maxlength="50" required>
+            </label>
+            <label>
+                Escreva o Email para contato:
+                <input type="text" name="email" placeholder="Ex: seu@email.com" maxlength="50" required >
+            </label>
+            <label>
+                Digite um telefone para contato:
+                <input type="tel" name="telefone" placeholder="Ex: 12 123456789" maxlength="50" required>
+            </label>
+            <label>Serviço solicitado:
+                <select name="servicos" required>
+                    <option value="">Selecione o tipo de Serviço</option>
+                    <option value="Formatação de sistemas">Formatação de sistemas</option>
+                    <option value="Manutenção em dispositivos">Manutenção em dispositivos</option>
+                    <option value="Atualização de software e hardware">Atualização de software e hardware</option>
+                    <option value="Instalação de sistemas e softwares">Instalação de sistemas e softwares</option>
+                    <option value="Backup e recuperação de dados">Backup e recuperação de dados</option>
+                    <option value="Aluguel de dispositivos">Aluguel de dispositivos</option>
+                    <option value="Alocação de técnicos">Alocação de técnicos</option>
+                    <option value="Suporte imediato">Suporte imediato</option>
+                </select>
+            </label>
+            <button type="submit" id="send">Enviar</button>
+        </form>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

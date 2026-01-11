@@ -1,0 +1,126 @@
+@import url('//fonts.googleapis.com/css?family=Quicksand');
+
+
+body{
+    display: flex;
+    justify-content: center;
+    font-family: 'Quicksand',sans-serif;
+    font-size: large;
+    background-color: rgb(209, 217, 221);
+    margin:0;
+    padding:0;
+    padding-top:58%;
+    overflow-y: auto;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #011f49;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    z-index: 100;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+
+
+.foto{
+    width: 300px;
+    height: 300px;
+    border: outset, black;
+}
+
+.sumary{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-bottom: 7px;
+}
+
+.home{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin-left: 15px;
+    margin-bottom: 15px ;
+}
+
+#description{
+    font-size: 20px;
+    width: 65%;
+    color: white;
+    font-weight: 800;
+    margin-left: 5%;
+}
+
+p{
+    color: black;
+    width: 1070px;
+    font-weight: bold;
+    text-align: justify;
+}
+
+h4{
+    width: 700px;
+    text-align: justify;
+}
+
+#logolink{
+    display: flex;
+    justify-content: left;
+    width: 65px;
+    height: 65px;
+}
+
+a{
+    display: inline-block;
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+a:hover{
+    transform: scale(1.05);
+}
+
+.equipe{
+    width: 300px;
+    height: 300px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 15px;
+}
+
+section a{
+    font-size: 20px;
+    color: #000000;
+    margin-right: 90px;
+    margin-left: 0;
+}
