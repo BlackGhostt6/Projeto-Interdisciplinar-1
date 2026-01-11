@@ -9,7 +9,7 @@ body{
     background-color: rgb(209, 217, 221);
     margin:0;
     padding:0;
-    padding-top:58%;
+    padding-top:10%;
     overflow-y: auto;
 }
 
@@ -39,7 +39,7 @@ section{
     gap: 60px;
     flex-wrap: wrap;
     width: 100%;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 }
 
 
