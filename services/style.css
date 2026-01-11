@@ -73,6 +73,11 @@ p{
     height: 65px;
 }
 
+#logo{
+    pointer-events: none;
+    user-select: none;
+}
+
 a{
     display: inline-block;
     color: white;
@@ -83,3 +88,7 @@ a{
 a:hover{
     transform: scale(1.05);
 }
+
+#logolink:hover{
+    transform: scale(1);
+}   

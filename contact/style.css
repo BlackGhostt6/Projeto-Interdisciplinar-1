@@ -73,6 +73,15 @@ a:hover{
     transform: scale(1.05);
 }
 
+#logolink:hover{
+    transform: scale(1);
+}   
+
+#logo{
+    pointer-events: none;
+    user-select: none;
+}
+
 main{
     display: flex;
     flex-direction: column;

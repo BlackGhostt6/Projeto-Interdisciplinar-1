@@ -12,8 +12,8 @@ form.addEventListener('submit', function(event) {
         servico: dados.get('service')
     };
 
-    console.log('Pedido recebido: ', pedido)
-    alert('formulario enviado')
-    window.location.href="../home/index.html"
+    console.log('Pedido recebido: ', pedido);
+    alert('formulario enviado');
+    window.location.replace("../home/index.html");
     
 });
