@@ -81,6 +81,7 @@ header{
     background-repeat: no-repeat;
     cursor: pointer;
     border: none;
+    z-index: 100;
 }
 
 
@@ -90,7 +91,6 @@ header{
     left: 2%;
     color: white;
     transform: scale(0.8);
-
 }
 
 #whatsapp:hover{
