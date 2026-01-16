@@ -21,22 +21,22 @@
         </div>
     </header>
     <main>
-        <form id="form-services">
+        <form target="_blank" id="form-services" action="https://formsubmit.co/llggtech@gmail.com" method="POST">
             <label>
                 Escreva o nome da Empresa:
                 <input type="text" name="nome" placeholder="Ex: Empresa A" maxlength="50" required>
             </label>
             <label>
                 Escreva o Email para contato:
-                <input type="text" name="email" placeholder="Ex: seu@email.com" maxlength="50" required >
+                <input type="email" name="email" placeholder="Ex: seu@email.com" maxlength="50" required >
             </label>
             <label>
                 Digite um telefone para contato:
-                <input type="tel" name="telefone" placeholder="Ex: 12 123456789" maxlength="50" required>
+                <input type="tel" name="telefone" id="telefone" placeholder="Ex: 12 123456789" maxlength="50" required>
             </label>
             <label>Serviço solicitado:
                 <select name="servicos" required>
-                    <option value="">Selecione o tipo de Serviço</option>
+                    <option value="" disabled selected>Selecione um serviço</option>
                     <option value="Formatação de sistemas">Formatação de sistemas</option>
                     <option value="Manutenção em dispositivos">Manutenção em dispositivos</option>
                     <option value="Atualização de software e hardware">Atualização de software e hardware</option>
@@ -50,6 +50,7 @@
             <button type="submit" id="send">Enviar</button>
         </form>
     </main>
+    <p id="copyright">© 2026 LG² Tech. Todos os direitos reservados.</p>
     <script src="script.js"></script>
 </body>
 </html>

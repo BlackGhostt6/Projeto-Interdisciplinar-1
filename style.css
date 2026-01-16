@@ -10,9 +10,26 @@ body{
     background-color: rgb(209, 217, 221);
     margin:0;
     padding:0;
-    padding-top: 200px;
+    padding-top: 11%;
     overflow-y: auto;
+    background-image: url(img/20260111_144414.png);
+    background-size: cover;
 }
+
+header{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #011f49;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    z-index: 100;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.459), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 
 #fundo{
     width: 101%;
@@ -32,7 +49,7 @@ body{
     height: 60px;
     background-color: #072857;
     border: none;
-    border-radius: 20px;
+    border-radius: 15px;
     color: white;
     font-weight: bold;
     cursor: pointer;
@@ -44,23 +61,44 @@ body{
     background-color: #074901;
 }
 
+
+.whatsapp{
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    right: 4%;
+    bottom: 4%;
+    z-index: 100;
+    background-color: #13be5a;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+#whatsapp{
+    margin: 0;
+    transform: scale(0.22);
+    margin-top: 0;
+    
+}
+
+#copyright{
+    position: fixed;
+    bottom: 0;
+    left: 2px;
+    color: white;
+    transform: scale(0.8);
+
+}
+
+.whatsapp:hover{
+    transform: scale(1.02);
+}
+
 .botoes:hover{
     transform: scale(1.03);
 }
-
-header{
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: #011f49;
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-    z-index: 100;
-}
-
 .sumary{
     display: flex;
     flex-direction: row;

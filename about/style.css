@@ -3,6 +3,7 @@
 
 body{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     font-family: 'Quicksand',sans-serif;
     font-size: large;
@@ -11,6 +12,11 @@ body{
     padding:0;
     padding-top:10%;
     overflow-y: auto;
+    
+}
+
+#copyright{
+    transform: scale(0.8);
 }
 
 header{
@@ -24,7 +30,9 @@ header{
     height: auto;
     overflow: hidden;
     z-index: 100;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.459), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 main{
     display: flex;
     flex-direction: column;
@@ -42,9 +50,8 @@ section{
     padding-bottom: 10px;
 }
 
-
-
 .foto{
+    margin-top: 20px;
     width: 300px;
     height: 300px;
     border: outset, black;
@@ -66,6 +73,7 @@ section{
     margin-left: 15px;
     margin-bottom: 15px ;
 }
+
 
 #description{
     font-size: 20px;
@@ -107,7 +115,7 @@ a:hover{
 
 #logolink:hover{
     transform: scale(1);
-}   
+}
 
 .equipe{
     width: 300px;
@@ -125,10 +133,14 @@ footer{
 }
 
 section a{
-    font-size: 20px;
+    transform: scale(1.7);
     color: #000000;
-    margin-right: 90px;
+    margin-right: 20px;
     margin-left: 0;
+}
+
+section a:hover{
+    transform: scale(1.8);
 }
 
 #logo{

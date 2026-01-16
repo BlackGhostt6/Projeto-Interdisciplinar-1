@@ -1,19 +1,11 @@
-const form = document.getElementById('form-services');
-const mensagem = document.getElementById('sucesso')
+const form = document.getElementById("form-services");
+const telefone = document.getElementById("telefone");
 
-form.addEventListener('submit', function(event) {
-    event.preventDefault();
+form.addEventListener("submit", (e) => {
+const valor = telefone.value;
 
-    const dados = new FormData(form);
-    const pedido = {
-        nome: dados.get('nome'),
-        email: dados.get('email'),
-        telefone: dados.get('telefone'),
-        servico: dados.get('service')
-    };
-
-    console.log('Pedido recebido: ', pedido);
-    alert('formulario enviado');
-    window.location.replace("../home/index.html");
-    
+    if (!/^\d+$/.test(valor)) {e.preventDefault();
+        alert("Digite apenas números no telefone");
+        telefone.focus();
+    }
 });
