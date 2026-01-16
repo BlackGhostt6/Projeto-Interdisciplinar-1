@@ -1,5 +1,8 @@
 @import url('//fonts.googleapis.com/css?family=Quicksand');
 
+*{
+    box-sizing: border-box;
+}
 
 body{
     display: flex;
@@ -13,10 +16,6 @@ body{
     padding-top:10%;
     overflow-y: auto;
     
-}
-
-#copyright{
-    transform: scale(0.8);
 }
 
 header{
@@ -33,6 +32,10 @@ header{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.459), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+#copyright{
+    transform: scale(0.8);
+}
+
 main{
     display: flex;
     flex-direction: column;
@@ -42,21 +45,30 @@ main{
 
 section{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 60px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     width: 100%;
     padding-bottom: 10px;
 }
 
 .foto{
     margin-top: 20px;
-    width: 300px;
-    height: 300px;
+    width: 24vw;
+    height: auto;
     border: outset, black;
     pointer-events: none;
     user-select: none;
+}
+
+.linha{
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 4%;
 }
 
 .sumary{
@@ -91,7 +103,7 @@ p{
 }
 
 h4{
-    width: 700px;
+    width: 56vw;
     text-align: justify;
 }
 
@@ -120,16 +132,6 @@ a:hover{
 .equipe{
     width: 300px;
     height: 300px;
-}
-
-footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 80px;
-    margin-top: 50px;
-    margin-bottom: 50px;
-    padding-bottom: 15px;
 }
 
 section a{

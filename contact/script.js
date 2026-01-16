@@ -1,11 +1,6 @@
 const form = document.getElementById("form-services");
 const telefone = document.getElementById("telefone");
 
-form.addEventListener("submit", (e) => {
-const valor = telefone.value;
-
-    if (!/^\d+$/.test(valor)) {e.preventDefault();
-        alert("Digite apenas números no telefone");
-        telefone.focus();
-    }
+telefone.addEventListener("input", () => {
+    telefone.value = telefone.value.replace(/[^0-9]/g, "");
 });
