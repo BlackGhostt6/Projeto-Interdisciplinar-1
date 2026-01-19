@@ -196,3 +196,55 @@ main{
     justify-content: center;
     align-items: center;
 }
+
+@media (max-width: 768px) {
+    #description{
+        margin-top:6%;
+        font-size: 0.8rem;
+        width: 70%;
+        margin-left: 4%;
+    }
+
+    body{
+        padding-top: 20vh;
+        background-image: none;
+        background-color: rgb(1, 7, 34);
+    }
+
+    .botoes{
+        width: 70%;
+        height: 5vh;
+        font-size: medium;
+    }
+    #logolink{
+        margin-top: 5%;
+        width: 28vw;
+        height: 3.6rem;
+        margin-left: 5%;
+    }
+    .text{
+        width: 70%;
+        font-size: medium;
+    }
+
+    .sumary a{
+        font-size: small;
+    }
+
+    #whatsapp{
+        width: 4rem;
+        height: 4rem;
+        right: 5%;
+        bottom: 6%;
+    }
+
+    #copyright{
+        transform: scale(0.6);
+    }
+
+    header{
+        height: 15vh;
+        width: 100%;
+        box-shadow: 0 4px 8px 0 rgba(101, 103, 107, 0.459), 0 6px 20px 0 rgba(15, 89, 107, 0.19);
+    }
+}

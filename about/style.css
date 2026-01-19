@@ -8,6 +8,7 @@
     --primary-color: #011f49;
     --secondary-color: #ffffff;
     --tertiary-color: #d1d9dd;
+    --card-blue: #ced1da;
     --black: #000000;
 }
 
@@ -68,14 +69,23 @@ section{
     border: outset, black;
     pointer-events: none;
     user-select: none;
+    margin-bottom: 15px;
 }
 
 .linha{
     justify-content: center;
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-direction: row;
     gap: 4%;
+    border: black solid;
+    border-radius: 15px;
+    background-color: var(--card-blue);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.459), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+i{
+    margin-bottom: 20px;
 }
 
 .sumary{
@@ -165,4 +175,85 @@ section a:hover{
 #logo{
     pointer-events: none;
     user-select: none;
+}
+
+@media (max-width: 768px) {
+    #description{
+        margin-top: 5%;
+        font-size: 0.8rem;
+        width: 60%;
+        margin-left: 8%;
+    }
+
+    p{
+        font-size: 1rem;
+        width: 90%;
+        font-weight: 600;
+    }
+
+    .linha{
+        gap: 2%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        border: black solid;
+        border-radius: 15px;
+        background-color: var(--card-blue);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.459), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    i{
+        margin-bottom: 15px;
+    }
+
+    .foto{
+        width: 60vw;
+    }
+
+    .linha h3{
+        font-size: 1.5rem;
+    }
+
+    .description{
+        font-size: 1rem;
+        width: 90%;
+        margin-left: 5vw;
+    }
+    
+    #copyright{
+        transform: scale(0.6);
+    }
+
+    body{
+        padding-top:15vh;
+    }
+
+    h4{
+        width: 90%;
+        font-size: 1rem;
+    }
+
+    #logolink{
+        width: 15vw;
+        height: 3.4rem;
+        margin-left: 1.4%;
+        margin-top: 4%;
+    }
+
+    .text{
+        width: 70%;
+        font-size: medium;
+    }
+
+    .sumary a{
+        font-size: small;
+    }
+
+    header{
+        height: 15vh;
+        width: 100%;
+        box-shadow: 0 4px 8px 0 rgba(101, 103, 107, 0.459), 0 6px 20px 0 rgba(15, 89, 107, 0.19);
+    }
 }

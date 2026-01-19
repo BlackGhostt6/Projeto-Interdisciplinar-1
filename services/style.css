@@ -138,3 +138,71 @@ a:hover{
     transform: scale(1.02);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.459), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+@media (max-width: 768px) {
+    #description{
+        margin-top: 5%;
+        font-size: 0.8rem;
+        width: 60%;
+        margin-left: 8%;
+    }
+
+    body{
+        padding-top: 15vh;
+        width: 100%;
+    }
+
+    .card-container{
+        margin-left: 4%;
+        transform: scale(1);
+        gap: 20px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cards{
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    main{
+        width: 100%;
+    }
+
+    .cards p{
+        width: 90%;
+        text-align: center;
+    }
+
+    .cards h2{
+        font-size: 1.4rem;
+    }
+
+    #logolink{
+        width: 15vw;
+        height: 3.4rem;
+        margin-left: 1.4%;
+        margin-top: 4%;
+    }
+    .text{
+        width: 70%;
+        font-size: medium;
+    }
+
+    #copyright{
+        transform: scale(0.6);
+        padding-left: 0;
+    }
+
+    .sumary a{
+        font-size: small;
+    }
+
+    header{
+        height: 15vh;
+        width: 100%;
+        box-shadow: 0 4px 8px 0 rgba(101, 103, 107, 0.459), 0 6px 20px 0 rgba(15, 89, 107, 0.19);
+    }
+}

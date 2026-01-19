@@ -159,3 +159,63 @@ select{
     border-radius: 4px;
     border: none;
 }
+
+@media (max-width: 768px) {
+    #description{
+        margin-top: 5%;
+        font-size: 0.8rem;
+        width: 70%;
+        margin-left: 5%;
+    }
+
+    body{
+        padding-top: 24vh;
+    }
+
+    .form-services{
+        width: 100%;
+    }
+
+    input{
+        width: 60vw;
+        height: 3vh;
+    }
+
+    select{
+        width: 60vw;
+        height: 3vh;
+    }
+
+    label{
+        font-size: 0.8rem;
+    }
+
+    #send{
+        width: 35vw;
+        height: 4vh;
+        font-size: medium;
+        border-radius: 7px;
+    }
+    #logolink{
+        width: 25vw;
+        height: 4rem;
+    }
+    .text{
+        width: 70%;
+        font-size: medium;
+    }
+
+    .sumary a{
+        font-size: small;
+    }
+
+    #copyright{
+        transform: scale(0.6);
+    }
+
+    header{
+        height: 15vh;
+        width: 100%;
+        box-shadow: 0 4px 8px 0 rgba(101, 103, 107, 0.459), 0 6px 20px 0 rgba(15, 89, 107, 0.19);
+    }
+}
