@@ -7,8 +7,10 @@
 
 :root{
     --primary-color: #011f49;
-    --secondary-color: #ffffff;
-    --tertiary-color: #d1d9dd;
+    --secondary-color: #d1d9dd;
+    --text-color: #000000;
+    --background-color: #9da9bd;
+    --tertiary-color: #bbc3da;
     --dark-blue: #072857;
     --green: #074901;
     --whatsapp-green: #13be5a;
@@ -20,13 +22,11 @@ body{
     justify-content: center;
     font-family: 'Quicksand',sans-serif;
     font-size: large;
-    background-color: var(--tertiary-color);
-    margin:0;
-    padding:0;
-    padding-top: 23vh;
+    padding-top: 30vh;
     overflow-y: auto;
-    background-image: url(img/20260111_144414.png);
+    background-image: url(img/gif-pc-fundo.gif);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 header{
@@ -57,22 +57,19 @@ header{
 }
 
 .botoes{
-    margin-top: 1.875rem;
-    width: 30%;
+    margin-top: 1rem;
+    width: 40%;
     height: 8vh;
     background-color: var(--dark-blue);
     border: none;
-    border-radius: 0.625rem;
+    border-radius: 20px;
     color: var(--secondary-color);
     font-weight: bold;
     cursor: pointer;
-    margin-left: 0; 
     font-size: larger;
+    margin-bottom:20px
 }
 
-#botao2{
-    background-color: var(--green);
-}
 
 
 #whatsapp{
@@ -107,7 +104,10 @@ header{
 }
 
 .botoes:hover{
-    transform: scale(1.03);
+    background-color: var(--tertiary-color);
+    color: var(--text-color);
+    border: var(--text-color) solid 1px;
+    transform: scale(1.01);
 }
 .sumary{
     display: flex;
@@ -184,10 +184,18 @@ section{
 }
 
 .text{
-    width: 70%;
-    text-align: justify;
-    color: var(--secondary-color);
-    transform: scale(1.06);
+    width: 90%;
+    text-align: center;
+    color: var(--text-color);  
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+#text{
+    margin-top:15px;
+    font-size: 2rem;
+    color: var(--text-color);
+    font-weight: 800;
 }
 
 main{
@@ -195,6 +203,11 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 15px;
+    box-shadow: #000000 0px 0px 8px 0px, rgba(0, 0, 0, 0.19) 0px 6px 20px 0px;
+    width:70%;
+    background-color:var(--background-color);
+    transform: scale(1.15);
 }
 
 @media (max-width: 768px) {
@@ -204,11 +217,16 @@ main{
         width: 70%;
         margin-left: 4%;
     }
+    main{
+        width:80%;
+        transform: scale(1.05);
+    }
 
     body{
-        padding-top: 20vh;
-        background-image: none;
-        background-color: rgb(1, 7, 34);
+        padding-top: 22vh;
+        background-image: url(img/gif-fundo-celular\ \(2\)\ \(1\).gif);
+        background-size: cover;
+        background-position: center;
     }
 
     .botoes{
@@ -223,8 +241,15 @@ main{
         margin-left: 5%;
     }
     .text{
-        width: 70%;
-        font-size: medium;
+        width: 80%;
+        font-size: large;
+        font-size: 1.18rem;
+    }
+
+    #text{
+        text-align: center;
+        width: 80%;
+        font-size: 1.7rem;
     }
 
     .sumary a{
@@ -234,8 +259,8 @@ main{
     #whatsapp{
         width: 4rem;
         height: 4rem;
-        right: 5%;
-        bottom: 6%;
+        right: 4%;
+        bottom: 2%;
     }
 
     #copyright{
