@@ -164,8 +164,8 @@ select{
     #description{
         margin-top: 5%;
         font-size: 0.8rem;
-        width: 70%;
-        margin-left: 5%;
+        width: 80%;
+        margin-left: 8%;
     }
 
     body{
@@ -197,9 +197,12 @@ select{
         border-radius: 7px;
     }
     #logolink{
-        width: 25vw;
-        height: 4rem;
+        width: 15vw;
+        height: 3.4rem;
+        margin-left: 1.4%;
+        margin-top: 4%;
     }
+    
     .text{
         width: 70%;
         font-size: medium;
