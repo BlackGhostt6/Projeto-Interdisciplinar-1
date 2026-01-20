@@ -6,5 +6,5 @@ botao.addEventListener("click", function() {
 });
 
 whatsapp.addEventListener("click", function() {
-    window.open("https://wa.me/5531995584785?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20or%C3%A7amento%20para%20minha%20empresa.", "_blank");
+    window.location.href = "https://wa.me/5531995584785?text=Ol%C3%A1%2C%20gostaria%20de%20fazer%20um%20or%C3%A7amento%20para%20minha%20empresa.";
 });

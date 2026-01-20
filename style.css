@@ -96,6 +96,7 @@ footer{
     width: 100%;
     display:flex;
     align-items: left;
+    z-index: 1;
 }
 
 #copyright{
