@@ -28,6 +28,7 @@ body{
     background-image: url(img/gif-pc-fundo.gif);
     background-size: cover;
     background-repeat: no-repeat;
+    gap: 50px;
 }
 
 header{
@@ -91,13 +92,16 @@ header{
     z-index: 100;
 }
 
+footer{
+    width: 100%;
+    display:flex;
+    align-items: left;
+}
 
 #copyright{
-    position: fixed;
-    bottom: 0;
-    left: 2%;
     color: var(--secondary-color);
     transform: scale(0.8);
+    margin-bottom: 0;
 }
 
 #whatsapp:hover{
@@ -105,7 +109,7 @@ header{
 }
 
 .botoes:hover{
-    background-color: var(--tertiary-color);
+    background-color: var(--secondary-color);
     color: var(--text-color);
     border: var(--text-color) solid 1px;
     transform: scale(1.01);
@@ -219,6 +223,7 @@ main{
     main{
         width:80%;
         transform: scale(1.05);
+        margin-bottom: 5%;
     }
 
     body{
@@ -264,6 +269,7 @@ main{
 
     #copyright{
         transform: scale(0.6);
+        display: flex;
     }
 
     header{

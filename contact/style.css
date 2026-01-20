@@ -42,9 +42,6 @@ header{
 }
 
 #copyright{
-    position: fixed;
-    left: 0;
-    bottom: 0;
     transform: scale(0.8);
 }
 
@@ -53,6 +50,16 @@ header{
     flex-direction: row;
     justify-content: left;
     margin-bottom: 0.5rem;
+}
+
+footer{
+    bottom:0;
+    left:0;
+    width: 100%;
+    display:flex;
+    position: fixed;
+    justify-content: left;
+    align-items: left;
 }
 
 .home{

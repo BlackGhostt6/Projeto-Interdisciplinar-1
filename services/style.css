@@ -23,6 +23,7 @@ body{
     padding:0;
     padding-top: 22vh;
     overflow-y: auto;
+    width: 100%;
 }
 
 main{
@@ -30,6 +31,7 @@ main{
     flex-direction: column;
     align-items: center;
     gap: 35px;
+    width:100%;
 }
 
 #title{
@@ -40,7 +42,7 @@ main{
 
 #copyright{
     padding-top: 3%;
-    transform: scale(0.8);
+    font-size: small;
 }
 
 header{
@@ -66,6 +68,7 @@ header{
     gap: 30px;
     transform: scale(1.08);
     padding-bottom: 20px;
+    width: 90%;
 }
 
 .sumary{
@@ -192,8 +195,8 @@ a:hover{
     }
 
     #copyright{
-        transform: scale(0.6);
-        padding-left: 0;
+        width: 90%;
+        padding-left: 15px;
     }
 
     .sumary a{

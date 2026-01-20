@@ -1,13 +1,8 @@
 const botao = document.getElementById("botao");
-const botao2 = document.getElementById("botao2");
 const whatsapp = document.getElementById("whatsapp")
 
 botao.addEventListener("click", function() {
     window.location.href = "contact/index.html";
-});
-
-botao2.addEventListener("click", function() {
-    window.location.href = "services/index.html";
 });
 
 whatsapp.addEventListener("click", function() {
